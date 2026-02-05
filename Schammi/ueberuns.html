@@ -42,35 +42,73 @@ nav a:hover{
 text-decoration:underline;
 }
 
-/* SECTION */
+/* HERO SECTION */
+.hero{
+width:100%;
+height:350px;
+background:url('https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg') center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hero h2{
+background:rgba(0,0,0,0.6);
+color:white;
+padding:20px 40px;
+font-size:40px;
+border-radius:10px;
+}
+
+/* CONTENT SECTION */
 .section{
 padding:60px 40px;
 max-width:900px;
 margin:auto;
 }
 
-.section h2{
-font-size:36px;
+.section h3{
+font-size:32px;
 color:#c8102e;
-margin-bottom:25px;
+margin-bottom:20px;
 text-align:center;
 }
 
 .section p{
 font-size:20px;
-line-height:1.6;
+line-height:1.7;
 margin-bottom:20px;
 text-align:center;
 }
 
-/* IMAGE */
-.hero-img{
-width:100%;
-max-width:800px;
-display:block;
-margin:30px auto;
+/* TEAM BOXES */
+.team{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.team-card{
+background:white;
+padding:20px;
 border-radius:12px;
 box-shadow:0 0 15px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.team-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.team-card h4{
+font-size:22px;
+color:#c8102e;
+margin-bottom:10px;
 }
 
 /* FOOTER */
@@ -87,7 +125,7 @@ margin-top:40px;
 <body>
 
 <header>
-<h1>Über uns</h1>
+<h1>Pizzeria Schammi</h1>
 <nav>
 <a href="index.html">Home</a>
 <a href="speisekarte.html">Speisekarte</a>
@@ -95,33 +133,3 @@ margin-top:40px;
 <a href="kontakt.html">Kontakt</a>
 <a href="lieferservice.html">Lieferservice</a>
 <a href="partyservice.html">Partyservice</a>
-<a href="ueberuns.html">Über uns</a>
-</nav>
-</header>
-
-<section class="section">
-<h2>Willkommen bei Pizzeria Schammi</h2>
-
-<img class="hero-img" src="https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg">
-
-<p>
-Seit unserer Gründung steht Pizzeria Schammi für Qualität, Frische und echten Geschmack.
-Wir bereiten jede Pizza mit Leidenschaft zu – von Hand, mit frischen Zutaten und traditionellen Rezepten.
-</p>
-
-<p>
-Unser Ziel ist es, unseren Gästen nicht nur gutes Essen zu bieten, sondern ein Stück italienische Lebensfreude.
-Ob Pizza, Pasta, Döner oder Schnitzel – bei uns findet jeder etwas.
-</p>
-
-<p>
-Wir freuen uns auf deinen Besuch und wünschen guten Appetit!
-</p>
-</section>
-
-<footer>
-© 2026 Pizzeria Schammi
-</footer>
-
-</body>
-</html>
