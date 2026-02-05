@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Über uns – Pizzeria Schammi</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* HEADER */
+header{
+background:#c8102e;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+color:white;
+font-size:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* SECTION */
+.section{
+padding:60px 40px;
+max-width:900px;
+margin:auto;
+}
+
+.section h2{
+font-size:36px;
+color:#c8102e;
+margin-bottom:25px;
+text-align:center;
+}
+
+.section p{
+font-size:20px;
+line-height:1.6;
+margin-bottom:20px;
+text-align:center;
+}
+
+/* IMAGE */
+.hero-img{
+width:100%;
+max-width:800px;
+display:block;
+margin:30px auto;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Über uns</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="speisekarte.html">Speisekarte</a>
+<a href="oeffnungszeiten.html">Öffnungszeiten</a>
+<a href="kontakt.html">Kontakt</a>
+<a href="lieferservice.html">Lieferservice</a>
+<a href="partyservice.html">Partyservice</a>
+<a href="ueberuns.html">Über uns</a>
+</nav>
+</header>
+
+<section class="section">
+<h2>Willkommen bei Pizzeria Schammi</h2>
+
+<img class="hero-img" src="https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg">
+
+<p>
+Seit unserer Gründung steht Pizzeria Schammi für Qualität, Frische und echten Geschmack.
+Wir bereiten jede Pizza mit Leidenschaft zu – von Hand, mit frischen Zutaten und traditionellen Rezepten.
+</p>
+
+<p>
+Unser Ziel ist es, unseren Gästen nicht nur gutes Essen zu bieten, sondern ein Stück italienische Lebensfreude.
+Ob Pizza, Pasta, Döner oder Schnitzel – bei uns findet jeder etwas.
+</p>
+
+<p>
+Wir freuen uns auf deinen Besuch und wünschen guten Appetit!
+</p>
+</section>
+
+<footer>
+© 2026 Pizzeria Schammi
+</footer>
+
+</body>
+</html>
